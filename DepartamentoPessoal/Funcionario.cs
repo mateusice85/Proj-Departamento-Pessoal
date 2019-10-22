@@ -19,7 +19,7 @@ namespace DepartamentoPessoal
         public void AlmentoDeSalario(double salario)
         {
             if (Salario == default) Salario = salario;
-            else Salario = Salario + (Salario * salario / 100.0);
+            else Salario = Salario + (Salario * salario / 100.00);
         }
         public override string ToString()
         {
